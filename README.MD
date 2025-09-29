@@ -58,25 +58,25 @@ Permite:
 
 2. (Opcional, pero recomendado) Crear y activar un entorno virtual:
 
-### Windows (PowerShell)
+*Windows (PowerShell)*
 ```bash
 python -m venv venv
 venv\Scripts\Activate.ps1
 ```
 
-### Windows (CMD)
+*Windows (CMD)*
 ```bash
 python -m venv venv
 venv\Scripts\activate.bat
 ```
 
-### Windows (Git Bash en VSCode)
+*Windows (Git Bash en VSCode)*
 ```bash
 python -m venv venv
 source venv/Scripts/activate
 ```
 
-### Linux / Mac
+*Linux / Mac*
 ```bash
 python -m venv venv
 source venv/bin/activate
@@ -102,9 +102,7 @@ python server.py
 ## Base de datos y usuario precargado 
 
 El sistema crea automáticamente una base de datos SQLite llamada tareas.db.
-Según la consigna, se incluye un usuario inicial precargado: 
-- Usuario: nombre 
-- Contraseña: 1234 
+
 *La contraseña no se guarda en texto plano, sino hasheada con Werkzeug Security*
 
 ## Endpoints principales 
