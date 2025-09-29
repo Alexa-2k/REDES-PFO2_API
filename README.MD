@@ -23,10 +23,10 @@ Permite:
 ## Estructura del proyecto  
 
 ```
-📦 proyecto-tareas
+📦 PFO2_API
 ┣ 📜 server.py
 ┣ 📜 init_db.py
-┣ 📜 database.db
+┣ 📜 tareas.db
 ┣ 📜 requirements.txt
 ┣ 📜 README.md
 ┣ 📂 templates
@@ -35,7 +35,11 @@ Permite:
 ┃ ┣ 📜 registro.html
 ┃ ┗ 📜 tareas.html
 ┗ 📂 static
-┗ 📜 style.css
+  ┣📜 style.css
+  ┗ 📂 screenshots 
+
+
+
 ```
 
 
@@ -69,7 +73,7 @@ python server.py
 
 ## Base de datos y usuario precargado 
 
-El sistema crea automáticamente una base de datos SQLite llamada database.db.
+El sistema crea automáticamente una base de datos SQLite llamada tareas.db.
 Según la consigna, se incluye un usuario inicial precargado: 
 - Usuario: nombre 
 - Contraseña: 1234 
