@@ -1,0 +1,38 @@
+# Configuración del sitio
+title: "Sistema de Gestión de Tareas - PFO 2"
+description: "API REST con Flask, SQLite y autenticación segura para gestión de tareas."
+url: "https://Alexa-2k.github.io"
+baseurl: "/REDES-PFO2_API"
+
+# --- Información del autor y SEO ---
+lang: es
+author: "Alejandra Lorena Rachich"
+github_username: Alexa-2k
+
+# --- Construcción del sitio (Build) ---
+theme: minima
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# --- Organización de archivos ---
+header_pages:
+  - README.md
+
+# Archivos y carpetas a excluir del sitio web final
+exclude:
+  - servidor.py
+  - cliente.py
+  - test_api.py
+  - requirements.txt
+  - tareas.db
+  - venv/
+  - __pycache__/
+  - "*.pyc"
+  - init_db.py     
+  - templates/     
+  - .gitignore     

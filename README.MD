@@ -48,28 +48,56 @@ Permite:
 ## Instalación y ejecución  
 
 1. Clonar el repositorio:  
-   ```bash
+ ```bash
    git clone https://github.com/Alexa-2k/REDES-PFO2_API
    cd REDES-PFO2_API
  ```
 
 
-2. Instalar dependencias: 
+
+
+2. (Opcional, pero recomendado) Crear y activar un entorno virtual:
+
+### Windows (PowerShell)
+```bash
+python -m venv venv
+venv\Scripts\Activate.ps1
+```
+
+### Windows (CMD)
+```bash
+python -m venv venv
+venv\Scripts\activate.bat
+```
+
+### Windows (Git Bash en VSCode)
+```bash
+python -m venv venv
+source venv/Scripts/activate
+```
+
+### Linux / Mac
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+3. Instalar dependencias: 
 ```bash
 pip install -r requirements.txt 
 ```
 
-3. Inicializar la base de datos (solo la primera vez): 
+4. Inicializar la base de datos (solo la primera vez): 
 ```bash
 python init_db.py 
 ```
 
-4. Iniciar el servidor: 
+5. Iniciar el servidor: 
 ```bash
 python server.py 
 ```
 
-5. Abrir en el navegador: http://127.0.0.1:5000 
+6. Abrir en el navegador: http://127.0.0.1:5000 
 
 ## Base de datos y usuario precargado 
 
