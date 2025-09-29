@@ -162,6 +162,8 @@ Es ligero y no requiere instalar un servidor de base de datos externo. El archiv
 
 ![Lista de tareas](static/screenshots/07.Task_list.png)
 
+8. Proceso completo
 
+![Proceso](static/screenshots/08.Proceso.png)
 
 
