@@ -46,7 +46,7 @@ Permite:
 1. Clonar el repositorio:  
    ```bash
    git clone https://github.com/Alexa-2k/REDES-PFO2_API
-   cd proyecto-tareas
+   cd REDES-PFO2_API
  ```
 
 
