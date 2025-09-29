@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Página de Inicio
+title: Sistema de Gestión de Tareas - Inicio
 permalink: /
 ---
-#  Sistema de Gestión de Tareas – API + SQLite  
+
+# Sistema de Gestión de Tareas - PFO 2
 
 Este proyecto implementa un sistema de gestión de tareas con autenticación de usuarios, utilizando **Flask** como framework web y **SQLite** como base de datos.  
 
