@@ -103,27 +103,35 @@ Es ligero y no requiere instalar un servidor de base de datos externo. El archiv
 ### Capturas de ejemplo 
 
 1. Inicio del servidor
+
 ![Inicio](static/screenshots/01.Inicio.png)
 
 2. Abrir el navegador 
+
 ![Abrir el navegador](static/screenshots/02.Abrir_navegador.png)
 
 3. Login
+
 ![Login](static/screenshots/03.Login.png)
 
 4. Credenciales inválidas (usuario no registrado / datos erróneos)
+
 ![Credenciales inválidas](static/screenshots/04.Credenciales_inválidas.png)
 
 5. Crear cuenta de nuevo usuario
+
 ![Nuevo usuario](static/screenshots/05.Crear_cuenta.png)
 
 6. Registrar nueva tarea
+
 ![Pantalla de inicio](static/screenshots/06.Registro_nueva_tarea.png)
 
 7. Listado de tareas
+
 ![Lista de tareas](static/screenshots/07.Task_list.png)
 
 8. Proceso completo
+
 ![Proceso completo](static/screenshots/08.Proceso.png)
 
 
